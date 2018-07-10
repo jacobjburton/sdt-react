@@ -7,7 +7,7 @@ class NavBar extends Component
     render()
     {
         return (
-            <div id="NavBar">
+            <div id="navbar">
                 <div id="innerNav">
                     <span id="titleWrapper">
                         <h1>

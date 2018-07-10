@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
+import './About.css';
 
-class Landing extends Component
+class About extends Component
 {
     render()
     {
         return (
-            <div id='landing'>
-                Landing
+            <div>
+                About
             </div>
         )
     }
 }
 
-export default Landing;
+export default About;
