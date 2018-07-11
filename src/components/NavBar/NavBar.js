@@ -13,7 +13,7 @@ class NavBar extends Component
                     <span id="titleWrapper">
                         <h1>
                             <Link id='title' to='/'>
-                                <img id='logo' src={require('../../images/152px-Nautical_star.svg.png')} alt="logo"/>
+                                <img id='logo' src={require('../../images/Logo2.svg')} alt="logo"/>
                                 Sirius Design & Technology
                             </Link>
                         </h1>

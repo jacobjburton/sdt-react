@@ -10,12 +10,12 @@ class Footer extends Component
                 <div id='innerFooter'>
                     <div id='sectionsWrapper'>
                         <div className='copyright'>
-                            <p>©2018 Sirius Design & Technology.  All Rights Reserved.</p>
+                            <p>©<img className='copyrightLogo' src={require('../../images/Logo2.svg')} alt=''/> 2018 Sirius Design & Technology.  All Rights Reserved.</p>
                         </div>                         
                         <div className='footerSections'>
                             <div className='footerSection'>
-                                <p>David Burton, Electrical Engineer</p>
-                                <p>Owner</p>
+                                <p>David Burton, MSEE</p>
+                                <p>President</p>
                             </div>
                             <div className='footerSection'>
                                 <p>Office</p>

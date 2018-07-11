@@ -35,7 +35,8 @@
     padding: 10px;
     color: white;
     font-size: 1.3em;
-    justify-content: space-around;
+    vertical-align: 50%;
+    /* justify-content: space-around; */
 }
 
 /* #title:hover
@@ -45,8 +46,9 @@
 
 #logo
 {
-    height: 45px;
-    width: 45px;
+    padding-top: 40px;
+    height: 100px;
+    width: 100px;
 }
 
 #navMenu
