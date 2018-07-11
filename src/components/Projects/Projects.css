@@ -52,7 +52,7 @@
 .projectImages
 {
     display: flex;
-    max-width: 80vw;
+    max-width: 78vw;
     justify-content: space-between;
 }
 
@@ -60,4 +60,9 @@ span img
 {
     max-width: 400px;
     max-height: 300px;
+}
+
+span p
+{
+    font-size: .7em;
 }
