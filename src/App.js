@@ -3,6 +3,7 @@ import routes from './routes';
 import './App.css';
 import { withRouter } from 'react-router';
 import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 class App extends Component 
 {
@@ -14,6 +15,7 @@ class App extends Component
         <div className='body'>
           {routes}
         </div>
+        <Footer/>
       </div>
     );
   }

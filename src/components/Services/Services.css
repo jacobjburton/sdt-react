@@ -1,0 +1,22 @@
+#services
+{
+    margin-top: 100px;
+    /* height: calc(100vh - 300px); */
+    /* color: white; */
+}
+
+.servicesWrapper
+{
+    display: flex;
+    width: 70vw;
+    /* background: url('../../images/IRimage-Switching\ Charger.JPG');
+    background-size: cover; */
+    padding: 15px;
+    height: calc(100vh - 250px);
+    margin: auto;
+}
+
+.wrapper p, .wrapper li
+{
+    font-size: 0.9em;
+}

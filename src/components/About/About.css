@@ -1,0 +1,40 @@
+#about
+{
+    margin-top: 100px;
+    /* height: calc(100vh - 250px); */
+}
+
+.aboutWrapper
+{
+    width: 70vw;
+    /* background: url('../../images/PCB.png');
+    background-size: cover; */
+    padding: 15px;
+    height: calc(100vh - 250px);
+    margin: auto;
+}
+
+.aboutWrapper p, .aboutWrapper li
+{
+    font-size: 0.9em;
+}
+
+.collaboration
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.collaboration p
+{
+    max-width: 30vw;
+}
+
+.image
+{
+    height: 500px;
+    width: 700px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,54 @@
+#footer
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #12500E;
+    height: 150px;
+    color: white;
+    font-size: 0.75em;
+    display: flex;
+    justify-content: center;
+}
+
+#innerFooter
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 80vw;    
+}
+
+#sectionsWrapper
+{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerSections
+{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.footerSection
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+}
+
+.footerSection p 
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.footerSection p:first-child, .footerSection:last-child p:nth-child(odd)
+{
+    color: goldenrod;
+}

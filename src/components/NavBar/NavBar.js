@@ -4,6 +4,7 @@ import './NavBar.css';
 
 class NavBar extends Component
 {
+
     render()
     {
         return (
@@ -20,8 +21,8 @@ class NavBar extends Component
                     <ul id='navMenu'>
                         <li><Link className='navLinks' to='/'>Home</Link></li>
                         <li><Link className='navLinks' to='/about'>About</Link></li>
+                        <li><Link className='navLinks' to='/services'>Services</Link></li>
                         <li><Link className='navLinks' to='/projects'>Projects</Link></li>
-                        <li><Link className='navLinks' to='/contact'>Contact Info</Link></li>
                     </ul>
                 </div>
 
