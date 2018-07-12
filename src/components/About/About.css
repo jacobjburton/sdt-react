@@ -38,3 +38,19 @@
     bottom: 0;
     right: 0;
 }
+
+.collaborationImage p
+{
+    font-size: .7em;
+}
+
+.pdfLink
+{
+    text-decoration: none;
+    color: black;
+}
+
+.pdfLink:hover
+{
+    color: goldenrod;
+}
