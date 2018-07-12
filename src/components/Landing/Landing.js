@@ -7,7 +7,7 @@ class Landing extends Component
     {
         return (
             <div id='landing'>
-                Landing
+                
             </div>
         )
     }
