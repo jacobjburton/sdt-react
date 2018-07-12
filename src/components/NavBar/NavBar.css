@@ -78,7 +78,7 @@
 
 .navLinks:active
 {
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 
 @media (max-width: 1500px)
