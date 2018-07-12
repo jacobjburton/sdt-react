@@ -68,21 +68,23 @@ class Projects extends Component
                     <div className='project'>
                         <h3>Large Industrial Research Test System</h3>
                         <div className='projectDetails'>
-                            <p>The exact details of this project are proprietary information reserved by the customer.  It has 128 RF channels and puts out about 1.3kW of power.  Responsible for much of the system design and integration as well as design and layout of the multichannel output circuit boards.  This was a project coordinated between 7 local area engineering contractors combining the expertise of Electrical Engineers (analog, digital and RF), Software developers, and Mechanical Engineers.</p>
-                            <div>
-                                <h4>System Features:</h4>
-                                <ul>
-                                    <li>System board size 13" x 14"</li>
-                                    <li>Real time OS with running Windows as an app</li>
-                                    <li>High Performance backplanes</li>
-                                    <li>FPGA interface and control circuits</li>
-                                    <li>128 programmable switching supplies</li>
-                                    <li>128 synchronized DDS</li>
-                                    <li>Rack mounted 2kW power supply</li>
-                                    <li>Matched delay clocks for 16 - 8 channel boards</li>
-                                    <li>Matched delay signal routing for 128 channels</li>
-                                    <li>Power pad through the board thermal management</li>
-                                </ul>
+                            <div className='projectDetailsInner2'>
+                                <div>
+                                    <h4>System Features:</h4>
+                                    <ul>
+                                        <li>System board size 13" x 14"</li>
+                                        <li>Real time OS with running Windows as an app</li>
+                                        <li>High Performance backplanes</li>
+                                        <li>FPGA interface and control circuits</li>
+                                        <li>128 programmable switching supplies</li>
+                                        <li>128 synchronized DDS</li>
+                                        <li>Rack mounted 2kW power supply</li>
+                                        <li>Matched delay clocks for 16 - 8 channel boards</li>
+                                        <li>Matched delay signal routing for 128 channels</li>
+                                        <li>Power pad through the board thermal management</li>
+                                    </ul>
+                                </div>
+                                <p>The exact details of this project are proprietary information reserved by the customer.  It has 128 RF channels and puts out about 1.3kW of power.  Responsible for much of the system design and integration as well as design and layout of the multichannel output circuit boards.  This was a project coordinated between 7 local area engineering contractors combining the expertise of Electrical Engineers (analog, digital and RF), Software developers, and Mechanical Engineers.</p>
                             </div>
                             <div className='projectImages'>
                                 <div className='projectImagesInner'>

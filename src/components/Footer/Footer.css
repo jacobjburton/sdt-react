@@ -6,7 +6,7 @@
     /* right: 0; */
     width: 100%;
     background-color: #12500E;
-    max-height: 150px;
+    max-height: 100px;
     color: white;
     font-size: 0.75em;
     display: flex;
@@ -56,7 +56,7 @@
 
 .copyright p
 {
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
 }
 

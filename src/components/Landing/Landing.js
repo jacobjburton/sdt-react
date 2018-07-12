@@ -7,7 +7,9 @@ class Landing extends Component
     {
         return (
             <div id='landing'>
-                
+                <div className='backgroundCredit'>
+                    <p>Credit: Alexandre Debiève @ Unsplash.com</p>
+                </div>
             </div>
         )
     }

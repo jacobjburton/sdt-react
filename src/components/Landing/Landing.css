@@ -4,5 +4,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 100px;
-    height: calc(100vh - 250px);
+    margin-bottom: 100px;
+    height: calc(100vh - 200px);
+    position: relative;
+}
+
+.backgroundCredit p
+{
+    position: absolute;
+    padding-right: 10px;
+    bottom: 0;
+    right: 0;
+    font-size: 0.5em;
 }

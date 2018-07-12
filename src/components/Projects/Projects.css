@@ -1,7 +1,7 @@
 #projects
 {
     margin-top: 100px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     /* min-height: calc(100vh - 100px); */
     /* height: calc(100vh - 300px); */
 }
@@ -28,7 +28,7 @@
 .project:last-child
 {
     border-bottom: 2px solid grey;
-    
+
 }
 
 
@@ -49,6 +49,17 @@
     margin-left: 20px;
     display: flex;
     flex-direction: column;
+}
+
+.projectDetailsInner2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectDetailsInner2 p
+{
+    max-width: 1000px;
 }
 
 .excellenceAward
