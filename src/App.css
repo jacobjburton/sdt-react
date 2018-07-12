@@ -11,9 +11,16 @@
 body
 {
   margin: 0;
+  position: relative;
 }
 
 *, *:before, *:after
 {
   box-sizing: inherit;
 }
+
+/* .footer
+{
+  position: fixed;
+  bottom: 0;
+} */

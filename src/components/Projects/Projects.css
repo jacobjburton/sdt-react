@@ -28,6 +28,7 @@
 .project:last-child
 {
     border-bottom: 2px solid grey;
+    
 }
 
 
@@ -73,23 +74,23 @@
 .projectDetails p a
 {
     text-decoration: none;
-    color: black;
+    color: goldenrod;
 }
 
 .projectDetails p a:hover
 {
-    color: goldenrod;
+    color: black;
 }
 
 .projectDetails2 p a
 {
     text-decoration: none;
-    color: black;
+    color: goldenrod;
 }
 
 .projectDetails2 p a:hover
 {
-    color: goldenrod;
+    color: black;
 }
 
 .projectImages

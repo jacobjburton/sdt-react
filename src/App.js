@@ -14,6 +14,7 @@ class App extends Component
         <NavBar/>
         <div className='body'>
           {routes}
+          
         </div>
         <Footer/>
       </div>

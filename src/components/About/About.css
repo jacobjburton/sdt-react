@@ -10,8 +10,13 @@
     /* background: url('../../images/PCB.png');
     background-size: cover; */
     padding: 15px;
-    height: calc(100vh - 250px);
+    /* max-height: calc(100vh - 250px); */
     margin: auto;
+}
+
+.aboutWrapper p:first-child
+{
+    font-size: 1em;
 }
 
 .aboutWrapper p, .aboutWrapper li
@@ -32,7 +37,7 @@
 
 .image
 {
-    height: 500px;
+    height: 480px;
     width: 700px;
     position: relative;
     bottom: 0;
@@ -47,10 +52,10 @@
 .pdfLink
 {
     text-decoration: none;
-    color: black;
+    color: goldenrod;
 }
 
 .pdfLink:hover
 {
-    color: goldenrod;
+    color: black;
 }
