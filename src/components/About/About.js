@@ -22,6 +22,7 @@ class About extends Component
                     </div>
 
                 </div>
+                <br/>
             </div>
         )
     }
