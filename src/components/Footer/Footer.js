@@ -27,9 +27,7 @@ class Footer extends Component
                                 <p>Phone</p>
                                 <p>(503) 332-5176</p>
                                 <p>Email</p>
-                                <p>dburton97128@yahoo.com</p>
-                                <p>Fax</p>
-                                <p>(503) 565-2001</p>
+                                <p>dburton@siriusdt.com</p>
                             </div>
                         </div>
                     </div>

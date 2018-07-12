@@ -14,20 +14,15 @@ class About extends Component
                     <br/>
 
                     <div className='collaboration'>
-                        <p>Through close association with firms offering mechanical and software design we are able to offer multidisciplinary services. These services could be small contained portions of a project you need help with, or could range up to full product design and test - from concept to manufacturing. We have combined product design experience of over 80 years, mostly with Hewlett Packard Company designing a variety of medical instruments. <br/>
+                        <span>Through close association with firms offering mechanical and software design we are able to offer multidisciplinary services. These services could be small contained portions of a project you need help with, or could range up to full product design and test - from concept to manufacturing. We have combined product design experience of over 100 years and have completed major projects with customers such as Hewlett Packard, Philips Medical, Delphinus Medical and many others. <br/>
                             <p>View the info sheet: <a className='pdfLink' href={pdf} target="_blank" rel="noopener noreferrer">SiriusDT Info Sheet</a></p>
-                        </p>
+                        </span>
                         <div className='collaborationImage'>
                             <img className='image' src={require('../../images/MeAtWork.JPG')} alt=""/>
                             <p>David Burton, President, MSEE</p>
                         </div>
                     </div>
 
-                    <br/>
-
-                    <div className='dataSheet'>
-                        
-                    </div>
                 </div>
             </div>
         )
