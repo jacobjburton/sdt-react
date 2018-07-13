@@ -132,4 +132,32 @@ span p
     font-size: .7em;
 }
 
+/* .slider
+{
+    width: 80vw;
+    overflow: hidden;
+} */
+
+.projectImagesSlider
+{
+    width: 80vw;
+    height: 500px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.slide
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.img
+{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+}
 
