@@ -1,10 +1,30 @@
 import React, { Component } from 'react';
 import './Projects.css';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick-theme.css';
+import 'slick-carousel/slick/slick.css';
 
 class Projects extends Component
 {
     render()
     {
+        var settings = 
+        {
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 1500,
+            autoplaySpeed: 4000,
+            pauseOnHover: false,
+            pauseOnDotsHover: true,
+            cssEase: 'linear',
+            initialSlide: 0,
+            swipeToSlide: true,
+            draggable: true
+        };
+
         return (
             <div id='projects'>
                 
@@ -17,15 +37,15 @@ class Projects extends Component
                             <div className='projectImages'>
                                 <div className='projectImagesInner'>
                                     <span>
-                                        <img src={require('../../images/high-end-ultrasound-system/Full Leg First Production shots sm.jpg')} alt=""/>
+                                        <img src={require('../../images/high-end-ultrasound-system/Full Leg First Production shots sm.jpg')} alt="" className='img'/>
                                         <p>Initial Production Shot</p>
                                     </span>
                                     <span>
-                                        <img src={require('../../images/high-end-ultrasound-system/MUX_bd-top-sm2.jpg')} alt=""/>
+                                        <img src={require('../../images/high-end-ultrasound-system/MUX_bd-top-sm2.jpg')} alt="" className='img'/>
                                         <p>Multiplexer Board</p>
                                     </span>
                                     <span>
-                                        <img src={require('../../images/high-end-ultrasound-system/VTB-top-loaded1sm2-rot.jpg')} alt=""/>
+                                        <img src={require('../../images/high-end-ultrasound-system/VTB-top-loaded1sm2-rot.jpg')} alt="" className='img'/>
                                         <p>Signal Acquisition Board</p>
                                     </span>
                                 </div>
@@ -87,39 +107,41 @@ class Projects extends Component
                                 <p>The exact details of this project are proprietary information reserved by the customer.  It has 128 RF channels and puts out about 1.3kW of power.  Responsible for much of the system design and integration as well as design and layout of the multichannel output circuit boards.  This was a project coordinated between 7 local area engineering contractors combining the expertise of Electrical Engineers (analog, digital and RF), Software developers, and Mechanical Engineers.</p>
                             </div>
                             <div className='projectImages'>
-                                <div className='projectImagesInner'>
-                                    <span>
-                                        <img src={require('../../images/industrial-research-test-system/HPAsys.JPG')} alt=""/>
-                                        <p>Full System</p>
-                                    </span>
-                                    <span>
-                                        <img src={require('../../images/industrial-research-test-system/Rack.JPG')} alt=""/>
-                                        <p>Output Cabling</p>
-                                    </span>
-                                    <span>
-                                        <img src={require('../../images/industrial-research-test-system/PS-protoBD.JPG')} alt=""/>
-                                        <p>Prototype Circuit</p>
-                                    </span>
-                                    <span>
-                                        <img src={require('../../images/industrial-research-test-system/8chSigBd.JPG')} alt=""/>
-                                        <p>8-Channel Board</p>
-                                    </span>
-                                    <span>
-                                        <img src={require('../../images/industrial-research-test-system/8chSigBd-channel.JPG')} alt=""/>
-                                        <p>Close-up of 1-Channel on 8-Channel Board</p>
-                                    </span>
-                                    <span>
-                                        <img src={require('../../images/industrial-research-test-system/8chSigBd-fpga.JPG')} alt=""/>
-                                        <p>Close-up of FPGA Circuitry on 8-Channel Board</p>
-                                    </span>
-                                    <span>
-                                        <img src={require('../../images/industrial-research-test-system/2chSigBd-tops.JPG')} alt=""/>
-                                        <p>2 Channel Prototype Board</p>
-                                    </span>
-                                    <span>
-                                        <img src={require('../../images/industrial-research-test-system/OutBd.JPG')} alt=""/>
-                                        <p>Output Board</p>
-                                    </span>
+                                <div className='projectImagesSlider'>
+                                    <Slider {...settings} /*className='slider'*/>
+                                        <div className='slide'>
+                                            <img src={require('../../images/industrial-research-test-system/HPAsys.JPG')} alt="" className='img'/>
+                                            <p>Full System</p>
+                                        </div>
+                                        <div className='slide'>
+                                            <img src={require('../../images/industrial-research-test-system/Rack.JPG')} alt="" className='img'/>
+                                            <p>Output Cabling</p>
+                                        </div>
+                                        <div className='slide'>
+                                            <img src={require('../../images/industrial-research-test-system/PS-protoBD.JPG')} alt="" className='img'/>
+                                            <p>Prototype Circuit</p>
+                                        </div>
+                                        <div className='slide'>
+                                            <img src={require('../../images/industrial-research-test-system/8chSigBd.JPG')} alt="" className='img'/>
+                                            <p>8-Channel Board</p>
+                                        </div>
+                                        <div className='slide'>
+                                            <img src={require('../../images/industrial-research-test-system/8chSigBd-channel.JPG')} alt="" className='img'/>
+                                            <p>Close-up of 1-Channel on 8-Channel Board</p>
+                                        </div>
+                                        <div className='slide'>
+                                            <img src={require('../../images/industrial-research-test-system/8chSigBd-fpga.JPG')} alt="" className='img'/>
+                                            <p>Close-up of FPGA Circuitry on 8-Channel Board</p>
+                                        </div>
+                                        <div className='slide'>
+                                            <img src={require('../../images/industrial-research-test-system/2chSigBd-tops.JPG')} alt="" className='img'/>
+                                            <p>2 Channel Prototype Board</p>
+                                        </div>
+                                        <div className='slide'>
+                                            <img src={require('../../images/industrial-research-test-system/OutBd.JPG')} alt="" className='img'/>
+                                            <p>Output Board</p>
+                                        </div>
+                                    </Slider> 
                                 </div>
                             </div>
                         </div>
@@ -131,11 +153,11 @@ class Projects extends Component
                             <div className='projectImages'>
                                 <div className='projectImagesInner'>
                                     <span>
-                                        <img src={require('../../images/small-projects/CFcardTop.JPG')} alt=""/>
+                                        <img src={require('../../images/small-projects/CFcardTop.JPG')} alt="" className='img'/>
                                         <p>Top View of CF Interface Card</p>
                                     </span>
                                     <span>
-                                        <img src={require('../../images/small-projects/CFcardBottom.JPG')} alt=""/>
+                                        <img src={require('../../images/small-projects/CFcardBottom.JPG')} alt="" className='img'/>
                                         <p>Bottom View of CF Interface Card</p>
                                     </span>
                                 </div>
