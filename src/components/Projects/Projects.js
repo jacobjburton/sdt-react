@@ -89,6 +89,7 @@ class Projects extends Component
                         <h3>Large Industrial Research Test System</h3>
                         <div className='projectDetails'>
                             <div className='projectDetailsInner2'>
+                                <p>The exact details of this project are proprietary information reserved by the customer.  It has 128 RF channels and puts out about 1.3kW of power.  Responsible for much of the system design and integration as well as design and layout of the multichannel output circuit boards.  This was a project coordinated between 7 local area engineering contractors combining the expertise of Electrical Engineers (analog, digital and RF), Software developers, and Mechanical Engineers.</p>
                                 <div>
                                     <h4>System Features:</h4>
                                     <ul>
@@ -104,7 +105,6 @@ class Projects extends Component
                                         <li>Power pad through the board thermal management</li>
                                     </ul>
                                 </div>
-                                <p>The exact details of this project are proprietary information reserved by the customer.  It has 128 RF channels and puts out about 1.3kW of power.  Responsible for much of the system design and integration as well as design and layout of the multichannel output circuit boards.  This was a project coordinated between 7 local area engineering contractors combining the expertise of Electrical Engineers (analog, digital and RF), Software developers, and Mechanical Engineers.</p>
                             </div>
                             <div className='projectImages'>
                                 <div className='projectImagesSlider'>
