@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Projects.css';
+import Slider from 'react-slick';
 
 class Projects extends Component
 {
