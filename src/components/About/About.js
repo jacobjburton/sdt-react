@@ -19,11 +19,6 @@ class About extends Component
                             <img className='image' src={require('../../images/MeAtWork.JPG')} alt=""/>
                             <p>David Burton, President, MSEE</p>
                         </div>
-                        <div>
-                            <span>
-                                
-                            </span>
-                        </div>
                     </div>
 
                 </div>
